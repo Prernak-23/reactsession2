@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.app{
+  text-align: center;
+  background: url("./components/background.jpg");
+  background-size: cover;
+  /* background-color: #092c41; */
+  height: fit-content;
+  color: #f0f8ff;
+
+}
+
+.menu{
+  width: 40%;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20vh;
+  
+}
+
+.list-div{
+  text-align: center;
+  background-color: #f5e7a9;
+  border-radius: 20px;
+  padding: 50px;
+}
+
+.list-div p{
+  font-size: 40px;
+  color: #092c41;
+  font-weight: bold;
+}
+
+.list-div ul{
+  list-style: none;
+}
+
+.dish-name{
+margin: 20px;
+color: #fff;
+background: #092c41;
+padding: 20px;
+border: 2px solid #4d5e6d;
+border-radius: 10px;
+}
+
+.btn{
+ color: #173304;
+ background-color: #99cc3a;
+ padding: 10px 60px;
+ border: 2px solid #396d17;
+ border-radius: 10px;
+ font-size: 20px;
+ font-weight: bold;
+}
